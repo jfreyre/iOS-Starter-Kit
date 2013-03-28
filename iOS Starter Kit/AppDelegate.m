@@ -6,11 +6,11 @@
 //  Copyright (c) 2013 YourOrganizationName. All rights reserved.
 //
 
-#import "XYZAppDelegate.h"
+#import "AppDelegate.h"
 
 #import "XYZViewController.h"
 
-@implementation XYZAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

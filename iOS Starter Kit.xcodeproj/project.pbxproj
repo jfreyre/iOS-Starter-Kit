@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45661A7C29EA4537AC5F34C9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A2AC2BD3C434097AB8CFCD7 /* libPods.a */; };
 		4DE28A691704845B00DEE898 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE28A681704845B00DEE898 /* UIKit.framework */; };
 		4DE28A6B1704845B00DEE898 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE28A6A1704845B00DEE898 /* Foundation.framework */; };
 		4DE28A6D1704845B00DEE898 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE28A6C1704845B00DEE898 /* CoreGraphics.framework */; };
 		4DE28A731704845B00DEE898 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DE28A711704845B00DEE898 /* InfoPlist.strings */; };
 		4DE28A751704845B00DEE898 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE28A741704845B00DEE898 /* main.m */; };
-		4DE28A791704845B00DEE898 /* XYZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE28A781704845B00DEE898 /* XYZAppDelegate.m */; };
+		4DE28A791704845B00DEE898 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE28A781704845B00DEE898 /* AppDelegate.m */; };
 		4DE28A7B1704845B00DEE898 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DE28A7A1704845B00DEE898 /* Default.png */; };
 		4DE28A7D1704845B00DEE898 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DE28A7C1704845B00DEE898 /* Default@2x.png */; };
 		4DE28A7F1704845B00DEE898 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DE28A7E1704845B00DEE898 /* Default-568h@2x.png */; };
@@ -24,6 +25,14 @@
 		4DE28A921704845B00DEE898 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE28A6A1704845B00DEE898 /* Foundation.framework */; };
 		4DE28A9A1704845B00DEE898 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DE28A981704845B00DEE898 /* InfoPlist.strings */; };
 		4DE28A9D1704845B00DEE898 /* iOS_Starter_KitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE28A9C1704845B00DEE898 /* iOS_Starter_KitTests.m */; };
+		4DE28AB81704852600DEE898 /* NSString+iosStartKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE28AAD1704852600DEE898 /* NSString+iosStartKit.m */; };
+		4DE28AB91704852600DEE898 /* UIColor+iosStartKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE28AAF1704852600DEE898 /* UIColor+iosStartKit.m */; };
+		4DE28ABA1704852600DEE898 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DE28AB11704852600DEE898 /* back.png */; };
+		4DE28ABB1704852600DEE898 /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DE28AB21704852600DEE898 /* back@2x.png */; };
+		4DE28ABC1704852600DEE898 /* forward.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DE28AB31704852600DEE898 /* forward.png */; };
+		4DE28ABD1704852600DEE898 /* forward@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DE28AB41704852600DEE898 /* forward@2x.png */; };
+		4DE28ABE1704852600DEE898 /* MMWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE28AB61704852600DEE898 /* MMWebViewController.m */; };
+		4DE28ABF1704852600DEE898 /* MMWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DE28AB71704852600DEE898 /* MMWebViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2202330B42AE4341AC4A5803 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		2A2AC2BD3C434097AB8CFCD7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DE28A651704845B00DEE898 /* iOS Starter Kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Starter Kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DE28A681704845B00DEE898 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4DE28A6A1704845B00DEE898 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -45,8 +56,8 @@
 		4DE28A721704845B00DEE898 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4DE28A741704845B00DEE898 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4DE28A761704845B00DEE898 /* iOS Starter Kit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS Starter Kit-Prefix.pch"; sourceTree = "<group>"; };
-		4DE28A771704845B00DEE898 /* XYZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZAppDelegate.h; sourceTree = "<group>"; };
-		4DE28A781704845B00DEE898 /* XYZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZAppDelegate.m; sourceTree = "<group>"; };
+		4DE28A771704845B00DEE898 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4DE28A781704845B00DEE898 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4DE28A7A1704845B00DEE898 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		4DE28A7C1704845B00DEE898 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		4DE28A7E1704845B00DEE898 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -60,6 +71,17 @@
 		4DE28A991704845B00DEE898 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4DE28A9B1704845B00DEE898 /* iOS_Starter_KitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOS_Starter_KitTests.h; sourceTree = "<group>"; };
 		4DE28A9C1704845B00DEE898 /* iOS_Starter_KitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Starter_KitTests.m; sourceTree = "<group>"; };
+		4DE28AAC1704852600DEE898 /* NSString+iosStartKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+iosStartKit.h"; sourceTree = "<group>"; };
+		4DE28AAD1704852600DEE898 /* NSString+iosStartKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+iosStartKit.m"; sourceTree = "<group>"; };
+		4DE28AAE1704852600DEE898 /* UIColor+iosStartKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+iosStartKit.h"; sourceTree = "<group>"; };
+		4DE28AAF1704852600DEE898 /* UIColor+iosStartKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+iosStartKit.m"; sourceTree = "<group>"; };
+		4DE28AB11704852600DEE898 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		4DE28AB21704852600DEE898 /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		4DE28AB31704852600DEE898 /* forward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward.png; sourceTree = "<group>"; };
+		4DE28AB41704852600DEE898 /* forward@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forward@2x.png"; sourceTree = "<group>"; };
+		4DE28AB51704852600DEE898 /* MMWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMWebViewController.h; sourceTree = "<group>"; };
+		4DE28AB61704852600DEE898 /* MMWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMWebViewController.m; sourceTree = "<group>"; };
+		4DE28AB71704852600DEE898 /* MMWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMWebViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +92,7 @@
 				4DE28A691704845B00DEE898 /* UIKit.framework in Frameworks */,
 				4DE28A6B1704845B00DEE898 /* Foundation.framework in Frameworks */,
 				4DE28A6D1704845B00DEE898 /* CoreGraphics.framework in Frameworks */,
+				45661A7C29EA4537AC5F34C9 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +116,7 @@
 				4DE28A951704845B00DEE898 /* iOS Starter KitTests */,
 				4DE28A671704845B00DEE898 /* Frameworks */,
 				4DE28A661704845B00DEE898 /* Products */,
+				2202330B42AE4341AC4A5803 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +136,7 @@
 				4DE28A6A1704845B00DEE898 /* Foundation.framework */,
 				4DE28A6C1704845B00DEE898 /* CoreGraphics.framework */,
 				4DE28A8F1704845B00DEE898 /* SenTestingKit.framework */,
+				2A2AC2BD3C434097AB8CFCD7 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,8 +144,9 @@
 		4DE28A6E1704845B00DEE898 /* iOS Starter Kit */ = {
 			isa = PBXGroup;
 			children = (
-				4DE28A771704845B00DEE898 /* XYZAppDelegate.h */,
-				4DE28A781704845B00DEE898 /* XYZAppDelegate.m */,
+				4DE28AAA1704852600DEE898 /* libs */,
+				4DE28A771704845B00DEE898 /* AppDelegate.h */,
+				4DE28A781704845B00DEE898 /* AppDelegate.m */,
 				4DE28A801704845B00DEE898 /* XYZViewController.h */,
 				4DE28A811704845B00DEE898 /* XYZViewController.m */,
 				4DE28A831704845B00DEE898 /* XYZViewController_iPhone.xib */,
@@ -163,6 +189,40 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4DE28AAA1704852600DEE898 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				4DE28AAB1704852600DEE898 /* Categories */,
+				4DE28AB01704852600DEE898 /* MMWebController */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		4DE28AAB1704852600DEE898 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				4DE28AAC1704852600DEE898 /* NSString+iosStartKit.h */,
+				4DE28AAD1704852600DEE898 /* NSString+iosStartKit.m */,
+				4DE28AAE1704852600DEE898 /* UIColor+iosStartKit.h */,
+				4DE28AAF1704852600DEE898 /* UIColor+iosStartKit.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		4DE28AB01704852600DEE898 /* MMWebController */ = {
+			isa = PBXGroup;
+			children = (
+				4DE28AB11704852600DEE898 /* back.png */,
+				4DE28AB21704852600DEE898 /* back@2x.png */,
+				4DE28AB31704852600DEE898 /* forward.png */,
+				4DE28AB41704852600DEE898 /* forward@2x.png */,
+				4DE28AB51704852600DEE898 /* MMWebViewController.h */,
+				4DE28AB61704852600DEE898 /* MMWebViewController.m */,
+				4DE28AB71704852600DEE898 /* MMWebViewController.xib */,
+			);
+			path = MMWebController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -173,6 +233,7 @@
 				4DE28A611704845B00DEE898 /* Sources */,
 				4DE28A621704845B00DEE898 /* Frameworks */,
 				4DE28A631704845B00DEE898 /* Resources */,
+				A11607E36D164F60A1AD6F5E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -241,6 +302,11 @@
 				4DE28A7F1704845B00DEE898 /* Default-568h@2x.png in Resources */,
 				4DE28A851704845B00DEE898 /* XYZViewController_iPhone.xib in Resources */,
 				4DE28A881704845B00DEE898 /* XYZViewController_iPad.xib in Resources */,
+				4DE28ABA1704852600DEE898 /* back.png in Resources */,
+				4DE28ABB1704852600DEE898 /* back@2x.png in Resources */,
+				4DE28ABC1704852600DEE898 /* forward.png in Resources */,
+				4DE28ABD1704852600DEE898 /* forward@2x.png in Resources */,
+				4DE28ABF1704852600DEE898 /* MMWebViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +334,20 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		A11607E36D164F60A1AD6F5E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -276,8 +356,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DE28A751704845B00DEE898 /* main.m in Sources */,
-				4DE28A791704845B00DEE898 /* XYZAppDelegate.m in Sources */,
+				4DE28A791704845B00DEE898 /* AppDelegate.m in Sources */,
 				4DE28A821704845B00DEE898 /* XYZViewController.m in Sources */,
+				4DE28AB81704852600DEE898 /* NSString+iosStartKit.m in Sources */,
+				4DE28AB91704852600DEE898 /* UIColor+iosStartKit.m in Sources */,
+				4DE28ABE1704852600DEE898 /* MMWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,10 +478,12 @@
 		};
 		4DE28AA11704845C00DEE898 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2202330B42AE4341AC4A5803 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOS Starter Kit/iOS Starter Kit-Prefix.pch";
 				INFOPLIST_FILE = "iOS Starter Kit/iOS Starter Kit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -406,10 +491,12 @@
 		};
 		4DE28AA21704845C00DEE898 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2202330B42AE4341AC4A5803 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOS Starter Kit/iOS Starter Kit-Prefix.pch";
 				INFOPLIST_FILE = "iOS Starter Kit/iOS Starter Kit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -468,6 +555,7 @@
 				4DE28AA21704845C00DEE898 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DE28AA31704845C00DEE898 /* Build configuration list for PBXNativeTarget "iOS Starter KitTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +564,7 @@
 				4DE28AA51704845C00DEE898 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
