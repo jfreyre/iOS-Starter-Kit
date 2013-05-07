@@ -1,12 +1,12 @@
 //
-//  NSString+MarinaCustoms.m
-//  MarinaMobile
+//  UIColor+iosStartKit.h
+//  iOS Starter Kit
 //
-//  Created by Jérome Freyre on 23.01.13.
-//  Copyright (c) 2013 La Vaudoise. All rights reserved.
+//  Created by Jérome Freyre on 28.03.13.
+//  Copyright (c) 2013 YourOrganizationName. All rights reserved.
 //
 
-#import "NSString+iosStartKit.h"
+#import "UIColor+iosStartKit.h"
 
 @implementation UIColor (iosStartKit)
 
